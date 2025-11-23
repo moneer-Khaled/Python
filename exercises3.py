@@ -43,7 +43,7 @@ strings("pen","Apple")
 
 # Enter the parameter number via the terminal with the help of the input method.
 
-import random
+
 
 
 print("\n Guessing a Number")
