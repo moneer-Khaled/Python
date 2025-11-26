@@ -5,7 +5,6 @@ def common_elements(a, b):
     result=list(set(a).intersection(b))
     return result
 
-
 a = [1, 2, 3, 4]
 b = [3, 4, 5, 6]
 print(common_elements(a, b))
