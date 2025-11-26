@@ -17,7 +17,6 @@ print(common_elements(a, b))
 print("\n2. Remove Duplicates While Preserving Order")
 def remove_duplicates(seq):
     seen=set()
-    
     result=[]
     for number in seq:
         if number not in seen:
@@ -42,7 +41,7 @@ def are_disjoint(set1, set2):
 
 a = {1, 2, 3}
 b = {4, 5, 6}
-print(are_disjoint(a, b))  # True
+print(are_disjoint(a, b))  
 c = {3, 4}
-print(are_disjoint(a, c))  # False
+print(are_disjoint(a, c))  
 
